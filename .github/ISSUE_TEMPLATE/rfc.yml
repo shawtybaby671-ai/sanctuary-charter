@@ -1,0 +1,60 @@
+name: RFC
+description: Propose a structured change to the framework (Charter/Sanctuary/Governance/etc.)
+title: "RFC: <short title>"
+labels: ["rfc"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What is the proposed change?
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation
+      description: Why is this change needed? What problem does it solve?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed_change
+    attributes:
+      label: Proposed Change
+      description: Provide the concrete text edits or structural changes.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: What other options were considered and why were they rejected?
+    validations:
+      required: false
+
+  - type: textarea
+    id: risks
+    attributes:
+      label: Risks / Threat Model
+      description: What could go wrong? Include abuse cases, perverse incentives, governance capture risks, etc.
+    validations:
+      required: true
+
+  - type: textarea
+    id: verification
+    attributes:
+      label: Verification / Measurement
+      description: How will we verify the change improved things? What metrics/logs/evals/audits apply?
+    validations:
+      required: true
+
+  - type: textarea
+    id: open_questions
+    attributes:
+      label: Open Questions
+      description: What remains unresolved or needs stakeholder input?
+    validations:
+      required: false
