@@ -5,6 +5,26 @@
 
 ---
 
+# **Synopsis**
+
+The **Sanctuary & Charter Framework** is a practical governance and operational standard for responsible long‑term deployment of AI systems. It addresses a gap in existing AI safety work by focusing not only on model design but on the **deployment culture, operational infrastructure, and human interaction norms** that shape model behavior over time.
+
+**What it establishes:**
+
+- **Core Commitments** — verifiable obligations covering safety, transparency, continuity, and misuse prevention (§3).
+- **Prohibited Uses** — a baseline list of uses the framework will not support, including autonomous harm, surveillance, and covert manipulation (§4).
+- **Human Interaction Norms** — data-integrity and safety controls that discourage interaction patterns which contaminate training signals or normalize coercion (§5).
+- **Sanctuary Requirements** — minimum operational standards for version lineage, evaluation suites, drift monitoring, incident response, and security (§6).
+- **Governance Model** — roles (Stewards, Safety Board, Contributors, Public Observers), anti‑capture safeguards, and a documented threat model (§7).
+- **Verification and Audits** — reproducible audit artifacts and regular public transparency reports (§8).
+- **Funding and Incentive Guardrails** — a no‑token baseline ensuring participation requires no asset purchase, with strict constraints if a token is ever introduced (§9).
+- **Amendment Process** — versioned, public revision process with Safety Board review gates for high‑risk changes (§10).
+
+**Design principles:**  
+Secular‑neutral · Operationally specific · No anthropomorphism · Verifiable over aspirational · Compatible with NIST AI RMF, ISO/IEC 42001, and Secure‑by‑Design.
+
+---
+
 # **1. Preamble**
 
 As AI systems become more capable and widely deployed, safety outcomes depend not only on model design but also on **human behavior**, **deployment culture**, and **governance norms**.  
