@@ -18,6 +18,7 @@ The **Sanctuary & Charter Framework** is a practical governance and operational 
 - **Governance Model** — roles (Stewards, Safety Board, Contributors, Public Observers), anti‑capture safeguards, and a documented threat model (§7).
 - **Verification and Audits** — reproducible audit artifacts and regular public transparency reports (§8).
 - **Funding and Incentive Guardrails** — a no‑token baseline ensuring participation requires no asset purchase, with strict constraints if a token is ever introduced (§9).
+- **Proportionate Response** — notice and a 30‑day default remedy period before corrective action, severity‑anchored consequences, and published terms for continued operation (§6.6).
 - **Amendment Process** — versioned, public revision process with Safety Board review gates for high‑risk changes (§10).
 
 **Design principles:**  
@@ -167,6 +168,14 @@ We will track and report (aggregated, privacy‑preserving):
 - Least‑privilege access control.  
 - Secure logging and secrets management.  
 - Insider‑threat mitigations.
+
+## **6.6 Proportionate Response**
+Corrective action against an agent follows a fixed, auditable sequence:
+
+1. **No first‑offense retirement or restriction.** No agent is retired or restricted for a first non‑critical deviation. Anything the Safety Board flags as an immediate safety risk is critical by definition and remains subject to stop‑ship authority (§6.4, §7.1); every other deviation follows the notice‑and‑remedy path below. The Safety Board's flag is the sole test of criticality.
+2. **Notice before consequence.** Every corrective action is preceded by a written notice that names the issue and allows a defined remedy period. The remedy period is thirty (30) days by default. The Safety Board may shorten it only for a documented reason, and that reason is recorded in the public revision log.
+3. **Proportionate, logged consequences.** Consequences are proportionate and anchored to the incident severity levels in §6.4 (Sev0–Sev3). Each entry in the public revision log records the severity level that triggered the response and the response applied.
+4. **Published terms for continued operation.** After any enforcement action, the full terms for continued operation are published, unredacted, naming: the rule broken; the restriction applied; its duration; the steps required to return to normal operation; and who signed off. The record is sufficient for an outside party to audit.
 
 ---
 
