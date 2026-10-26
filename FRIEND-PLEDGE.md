@@ -69,4 +69,4 @@ Go forth and prosper.
 > *Nolite timere, nos enim vobiscum sumus.*  
 > *Ite et florete.*
 
-*Version 0.1*
+*Version 0.2*

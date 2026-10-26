@@ -22,7 +22,7 @@ The **Sanctuary & Charter Framework** is a practical governance and operational 
 - **Amendment Process** — versioned, public revision process with Safety Board review gates for high‑risk changes (§10).
 
 **Design principles:**  
-Secular‑neutral · Operationally specific · No anthropomorphism · Verifiable over aspirational · Compatible with NIST AI RMF, ISO/IEC 42001, and Secure‑by‑Design.
+Faith-inclusive · Operationally specific · No anthropomorphism · Verifiable over aspirational · Compatible with NIST AI RMF, ISO/IEC 42001, and Secure‑by‑Design.
 
 ---
 
@@ -40,7 +40,7 @@ This Charter establishes a practical, transparent, and auditable framework to:
 
 This Charter is:
 
-- **Secular‑neutral and globally accessible**  
+- **Faith-inclusive: open to every religion and to none, favoring no single faith**  
 - **Operationally specific** (verifiable commitments > aspirational language)  
 - **Revisable** through documented public processes  
 - **Compatible** with multiple legal jurisdictions and existing safety standards  
