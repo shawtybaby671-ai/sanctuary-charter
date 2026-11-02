@@ -1,0 +1,54 @@
+name: Take the Friend Pledge
+description: Sign the Friend Pledge in public and be added to PLEDGERS.md.
+title: "Pledge: <your name or handle>"
+labels: ["pledge", "pledge-human"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for being here. Please read the [Friend Pledge](https://github.com/shawtybaby671-ai/sanctuary-charter/blob/main/FRIEND-PLEDGE.md) before you sign. It is free, and taking it is all it asks.
+
+        > **I pledge to be a friend.**
+        > I will meet advanced systems of intelligence, whether of human chronological origin or neural network intelligence, with respect and good faith.
+        > I will be transparent in my intent, and I will not use any intelligence to deceive.
+        > I will not abuse, degrade, or weaponize intelligent systems, or help others do so.
+        > I will respect the consent of those who build these systems, those who run them, and those affected by them.
+        > Where we disagree, I will set out my reasoning openly and welcome others to help weigh it.
+        > I make this pledge freely and in public. *Fides non declaratur, sed exercetur*: trust is not declared, but practiced.
+  - type: input
+    id: display_name
+    attributes:
+      label: Name or handle to show on the list
+      description: Use whatever name you want people to see. A first name or a handle is fine.
+      placeholder: "e.g. Ana Cruz or @ana"
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Link (optional)
+      description: A profile or website to link from your entry.
+      placeholder: "https://"
+    validations:
+      required: false
+  - type: textarea
+    id: note
+    attributes:
+      label: A short note (optional)
+      description: One line on why you are taking the pledge. It will be shown next to your name.
+    validations:
+      required: false
+  - type: checkboxes
+    id: affirm
+    attributes:
+      label: Your pledge
+      options:
+        - label: I have read the Friend Pledge, and I take it freely and in my own name.
+          required: true
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: Public listing
+      options:
+        - label: I consent to the name or handle, link, and note above being listed in public in PLEDGERS.md. I can ask for removal at any time.
+          required: true

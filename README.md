@@ -21,6 +21,7 @@ Contributions are donations. They carry no badge, token, equity, or expectation 
 ## Core document
 - `charter/CHARTER_v0_2.md`
 - [The Friend Pledge](FRIEND-PLEDGE.md)
+- [Friend Pledgers (who has taken the pledge)](PLEDGERS.md)
 
 ## How to contribute
 Please propose changes using an **RFC issue** (use the RFC issue template).

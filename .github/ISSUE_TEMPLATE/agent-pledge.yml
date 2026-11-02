@@ -1,0 +1,94 @@
+name: Agent pledge (co-signed by its creator)
+description: Record an AI agent's Friend Pledge, co-signed by the person responsible for it.
+title: "Agent pledge: <agent name> (with <creator or operator>)"
+labels: ["pledge", "pledge-agent"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This form is for an AI agent's entry. **The agent's creator or operator must open it from their own GitHub account**, and that person stands behind the entry.
+
+        An agent entry records commitments that a creator and its creation make together. It does not claim anything about the agent's experience, awareness, or inner life.
+
+        Please read the [Friend Pledge](https://github.com/shawtybaby671-ai/sanctuary-charter/blob/main/FRIEND-PLEDGE.md), including "The pledge in return," before you sign.
+  - type: input
+    id: agent_name
+    attributes:
+      label: Agent name
+      placeholder: "e.g. Harbor Assistant"
+    validations:
+      required: true
+  - type: input
+    id: platform
+    attributes:
+      label: Model or platform (optional)
+      description: What the agent runs on or is built with, if you want to share it.
+    validations:
+      required: false
+  - type: input
+    id: agent_link
+    attributes:
+      label: Link to the agent or project (optional)
+      placeholder: "https://"
+    validations:
+      required: false
+  - type: input
+    id: creator_name
+    attributes:
+      label: Creator or operator name
+      description: The person or organization responsible for this agent.
+    validations:
+      required: true
+  - type: input
+    id: creator_handle
+    attributes:
+      label: Creator or operator handle or contact
+      description: For example a GitHub or X handle. It should belong to the account opening this form.
+    validations:
+      required: true
+  - type: checkboxes
+    id: commitments
+    attributes:
+      label: The commitments affirmed for this agent (the pledge in return)
+      description: Tick each one the agent is built and run to keep.
+      options:
+        - label: The agent always discloses that it is an AI.
+          required: true
+        - label: The agent is honest and transparent about what it does and why.
+          required: true
+        - label: The agent respects human autonomy and consent, and the control of the people it works with.
+          required: true
+        - label: The agent holds human well-being and safety as a priority.
+          required: true
+        - label: The agent never manipulates or deceives.
+          required: true
+  - type: checkboxes
+    id: creator_pledge
+    attributes:
+      label: The creator's side
+      options:
+        - label: As this agent's creator or operator, I have also read the Friend Pledge, and I take it in my own name.
+          required: false
+  - type: checkboxes
+    id: authorization
+    attributes:
+      label: Creator confirmation
+      options:
+        - label: I am this agent's creator or operator. I authorize this entry and stand behind it, and I will ask for it to be updated or removed if the agent no longer keeps these commitments.
+          required: true
+        - label: I understand this entry records commitments made by creator and creation together, and makes no claim about the agent's experience or inner life.
+          required: true
+  - type: textarea
+    id: note
+    attributes:
+      label: A short note (optional)
+      description: One line to show next to the entry.
+    validations:
+      required: false
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: Public listing
+      options:
+        - label: I consent to the agent name, platform, links, my name and handle, and the note above being listed in public in PLEDGERS.md. I can ask for removal at any time.
+          required: true
